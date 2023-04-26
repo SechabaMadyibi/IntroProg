@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putting JS in HTML</title>
+</head>
+
+<body>
+    <H1>Hello World</H1>
+    <p>My first web page </p>
+    <script>
+        /*var message = "Hello World"
+        console.log(message);
+        var name = "Nicholas";
+console.log("Hello " + name);*/
+        /*var name = "Nick";
+        console.log("Hello " + name);
+        if (name.length > 7) {
+         console.log("Wow, you have a REALLY long name!");
+        } else {
+         console.log("Your name isn't very long.");*/
+
+        /*let theName = prompt("What is your name ?").toLocaleLowerCase
+        
+        if (theName === "Sechaba" ) 
+        {
+            alert ("Hello, Sechaba");
+        }
+        else if (theName === "Musa")
+        {
+            alert ("Hello, Dad")
+        }
+         else if (theName === "Lulu ")
+         {
+            alert("Hello, Mom")
+         }
+         else alert ("Hello, Stranger")*/
+
+        /*let sheepCounted = 1;
+        while (sheepCounted < 11)
+         {
+            alert("I have counted " + sheepCounted + " sheep!");
+            sheepCounted++;
+        }
+        alert("Zzzzzzz");*/
+        /*let timesToSayHello = 3;
+        for (i = 0; i < timesToSayHello; i++)
+        {
+            alert ("Hello")
+        }*/
+
+
+        /*for (let sheepCounted = 1; sheepCounted < 11; sheepCounted++)
+         {
+            console.log("I have counted " + sheepCounted + " sheep!");
+            
+        }
+        console.log("Zzzzzzzzzz")*/
+
+        /* let names = ["Sechaba", "Musa", "Lulu", "Sam"];
+         for (let i = 0; i < names.length; i++) {
+             alert("This array contains the name: " + names[i] + ".");
+         }*/
+        /*let name = "Nick";
+        for (var i = 0; i < name.length; i++) {
+            console.log("My name contains the letter " + name[i] + ".");
+        }*/
+        /*for (var x = 2; x < 10000; x = x * 2)
+         {
+            console.log(x);
+        }*/
+
+        /*let powerThree = 3
+        while (powerThree < 10000) {
+            console.log(powerThree);
+            powerThree = powerThree * 3;
+        }*/
+        /*let animals = ["Cat", "Fish",
+            "Lemur", "Komodo Dragon"];
+        for (i = 0; i < animals.length; i++)
+        {
+            animals[i] = console.log ("Awesome " + animals[i])
+        }*/
+        /*let alphabet = "abcdefghijklmnopqrstuvwxyz";
+        let randomString = "";
+
+        for (let i = 0; i < 6; i++) 
+        {
+           let randomIndex = console.log(Math.floor(Math.random()) * alphabet.length)
+           randomString += alphabet [randomIndex];
+        }
+        console.log (randomString);
+
+        */
+        let input = "javascript is awesome";
+        let output = "";
+        for (let i = 0;  i < input.length; i++)
+        {
+            if (input[i] === "a")
+            {
+                output += 4;
+            } 
+            else if (input[i] === "e")
+            {
+                output += 3;
+            }
+            else if (input[i] === "i")
+            {
+                output += 1 
+            }
+            else  if (input[i] === "o")
+            {
+                output += 0;
+            }
+            else 
+            {
+                output += input[i];
+            }
+        }
+        console.log (output);
+
+    </script>
+</body>
+
+</html>
