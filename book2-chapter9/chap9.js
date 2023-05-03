@@ -108,4 +108,4 @@ function calculateIt() {
     
     //display the return value
     document.getElementById("result").innerHTML = returnValue;
-}
+};
